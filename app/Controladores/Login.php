@@ -25,7 +25,7 @@ class Login extends Controlador
             Url::redirigir('Usuarios');
         }
 
-        $data['titulo'] = $this->idioma->obtener('titulo');
+        $data['titulo'] = $this->idioma->obtener('login_titulo');
 
         if (isset($_POST['submit']))
         {

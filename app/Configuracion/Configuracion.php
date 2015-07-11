@@ -13,17 +13,17 @@ class Configuracion
 
         define('DB_TYPE', 'mysql');
         define('DB_HOST', 'localhost');
-        define('DB_NAME', 'framework');
+        define('DB_NAME', 'portalbco');
         define('DB_USER', 'root');
-        define('DB_PASS', '');
-        define('PREFIX', 'BCO_');
+        define('DB_PASS', 'wi140679');
+        define('PREFIX', 'Pela_');
 
         /**
          * Se recomienda utilizar un 'prefix'
          * para poder especificar que tablas utilizarán con este framework
          * sin modificar las que actualmente se usen.
          */
-        define('SESSION_PREFIX', 'BCO_');
+        define('SESSION_PREFIX', 'Pela_');
 
         /**
          * Para definir el titulo de la web a todas las páginas
