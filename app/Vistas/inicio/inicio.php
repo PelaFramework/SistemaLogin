@@ -6,7 +6,7 @@
 
 <p><?php echo $data['inicio_mensaje'] ?></p>
 
-<a class="btn btn-md btn-success" href="<?php echo DIR;?>SubPagina">
-    <?php echo Idiomas::mostrar('abrir_subpagina', 'Inicio'); ?>
+<a class="btn btn-md btn-success" href="<?php echo DIR;?>Login">
+    <?php echo Idiomas::mostrar('login', 'Inicio'); ?>
 </a>
 

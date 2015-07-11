@@ -21,13 +21,4 @@ class Inicio extends Controlador{
         Vistas::mostrarPlantilla('piedepagina', $data);
     }
 
-    public function subPagina()
-    {
-        $data['titulo'] = $this->idioma->obtener('subpagina_titulo');
-        $data['subpagina_mensaje'] = $this->idioma->obtener('subpagina_mensaje');
-
-        Vistas::mostrarPlantilla('encabezado', $data);
-        Vistas::mostrar('inicio/subpagina', $data);
-        Vistas::mostrarPlantilla('piedepagina', $data);
-    }
 }

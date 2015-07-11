@@ -10,8 +10,7 @@ use Configuracion\Rutas;
 
 Rutas::any('', 'Controladores\Inicio@index');
 Rutas::any('index', 'Controladores\Inicio@index');
-Rutas::any('Home', 'Controladores\Inicio@index');
-Rutas::any('SubPagina', 'Controladores\Inicio@subPagina');
+Rutas::any('Login', 'Controladores\Login@ingresar');
 
 Rutas::error('Configuracion\Error@index');
 Rutas::$rutaAlternativa = false;
