@@ -13,9 +13,9 @@ class Configuracion
 
         define('DB_TYPE', 'mysql');
         define('DB_HOST', 'localhost');
-        define('DB_NAME', 'portalbco');
+        define('DB_NAME', 'NombreBaseDeDatos');
         define('DB_USER', 'root');
-        define('DB_PASS', 'wi140679');
+        define('DB_PASS', '');
         define('PREFIX', 'Pela_');
 
         /**
